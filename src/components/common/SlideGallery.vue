@@ -78,6 +78,7 @@ function nextStep() {
 }
 
 .slide-bg {
+    border-radius: var(--radius-md);
     position: absolute;
     top: 0;
     left: 0;
