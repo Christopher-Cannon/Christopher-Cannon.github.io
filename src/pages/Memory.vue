@@ -120,7 +120,7 @@ const prevNextNavData = {
         </ul>
 
         <ImageFigure
-            src="/public/images/memory/cache ram comparison.png"
+            src="/images/memory/cache ram comparison.png"
             alt="Size comparison between L1, L2, L3 cache and RAM."
         />
 
@@ -159,7 +159,7 @@ const prevNextNavData = {
         </ul>
 
         <ImageFigure
-            src="/public/images/memory/cache diagram.avif"
+            src="/images/memory/cache diagram.avif"
             alt="Typical cache layout on a multi-core CPU."
             caption="How cache might be arranged on an eight-core CPU."
         />
@@ -191,13 +191,13 @@ const prevNextNavData = {
         </p>
 
         <ImageFigure
-            src="/public/images/memory/single data rate.png"
+            src="/images/memory/single data rate.png"
             alt="A diagram showing how single data rate memory only transfers data on the rising of the system clock."
             caption="Data is only transferred on the rising of the system clock."
         />
 
         <ImageFigure
-            src="/public/images/memory/double data rate.png"
+            src="/images/memory/double data rate.png"
             alt="A diagram showing how double data rate memory transfers data on the rising and falling of the system clock."
             caption="Data is transferred on the rising and falling of the system clock."
         />
@@ -240,7 +240,7 @@ const prevNextNavData = {
         </div>
 
         <ImageFigure
-            src="/public/images/memory/stack and heap.png"
+            src="/images/memory/stack and heap.png"
             alt="Graphic showing how the heap and stack grow in main memory."
             caption="The '0x' prefix is another way to denote a hexadecimal number."
         />
@@ -309,7 +309,7 @@ const prevNextNavData = {
 
         <h4 class="h3">Programmable ROM</h4>
 
-        <SideImage src="/public/images/memory/prom.avif" alt="A PROM chip.">
+        <SideImage src="/images/memory/prom.avif" alt="A PROM chip.">
             <p>
                 Starts blank and can only be programmed once after manufacture
                 since the writing process is destructive.
@@ -324,7 +324,7 @@ const prevNextNavData = {
         <h4 class="h3">Erasable PROM</h4>
 
         <SideImage
-            src="/public/images/memory/eprom.avif"
+            src="/images/memory/eprom.avif"
             alt="An EPROM chip with window for erasing data with UV light."
         >
             <p>

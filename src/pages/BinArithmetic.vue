@@ -34,100 +34,100 @@ const binAdditionRulesData = [
 
 const binAdditionSlidePaths = [
     {
-        path: "/public/images/binary addition/bin-addition-1.png",
+        path: "/images/binary addition/bin-addition-1.png",
         description:
             "Write each binary number down with one on top of the other.",
     },
     {
-        path: "/public/images/binary addition/bin-addition-2.png",
+        path: "/images/binary addition/bin-addition-2.png",
         description: "0 + 0 = 0.",
     },
     {
-        path: "/public/images/binary addition/bin-addition-3.png",
+        path: "/images/binary addition/bin-addition-3.png",
         description: "1 + 0 = 1.",
     },
     {
-        path: "/public/images/binary addition/bin-addition-4.png",
+        path: "/images/binary addition/bin-addition-4.png",
         description: "1 + 1 = 0, carry 1 to the next column.",
     },
     {
-        path: "/public/images/binary addition/bin-addition-5.png",
+        path: "/images/binary addition/bin-addition-5.png",
         description: "1 + 1 + carry 1 = 1, carry 1 to the next column.",
     },
     {
-        path: "/public/images/binary addition/bin-addition-6.png",
+        path: "/images/binary addition/bin-addition-6.png",
         description: "1 + 1 = 0, carry 1 to the next column.",
     },
     {
-        path: "/public/images/binary addition/bin-addition-7.png",
+        path: "/images/binary addition/bin-addition-7.png",
         description: "1 + 1 = 0, carry 1 to the next column.",
     },
     {
-        path: "/public/images/binary addition/bin-addition-8.png",
+        path: "/images/binary addition/bin-addition-8.png",
         description: "1 + 1 = 0, carry 1 to the next column.",
     },
     {
-        path: "/public/images/binary addition/bin-addition-9.png",
+        path: "/images/binary addition/bin-addition-9.png",
         description: "1 + 1 = 0, carry 1 to the next column.",
     },
     {
-        path: "/public/images/binary addition/bin-addition-10.png",
+        path: "/images/binary addition/bin-addition-10.png",
         description: "Leftover carry digits go in their own column.",
     },
 ];
 
 const binSubtractionSlidePaths = [
     {
-        path: "/public/images/binary subtraction/binary-add-2c-0a.png",
+        path: "/images/binary subtraction/binary-add-2c-0a.png",
         description: "Label each number as A and B respectively.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-0b.png",
+        path: "/images/binary subtraction/binary-add-2c-0b.png",
         description: "Invert the second number and add 1 to it.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-1.png",
+        path: "/images/binary subtraction/binary-add-2c-1.png",
         description:
             "Write each binary number down with one on top of the other.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-2.png",
+        path: "/images/binary subtraction/binary-add-2c-2.png",
         description: "1 + 1 = 0, carry 1 to the next column.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-3.png",
+        path: "/images/binary subtraction/binary-add-2c-3.png",
         description: "1 + 0 = 1.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-4.png",
+        path: "/images/binary subtraction/binary-add-2c-4.png",
         description: "1 + 0 = 1.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-5.png",
+        path: "/images/binary subtraction/binary-add-2c-5.png",
         description: "1 + 1 = 0, carry 1 to the next column.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-6.png",
+        path: "/images/binary subtraction/binary-add-2c-6.png",
         description: "1 + 0 = 1.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-7.png",
+        path: "/images/binary subtraction/binary-add-2c-7.png",
         description: "0 + 0 = 0.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-8.png",
+        path: "/images/binary subtraction/binary-add-2c-8.png",
         description: "1 + 0 = 0.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-9.png",
+        path: "/images/binary subtraction/binary-add-2c-9.png",
         description: "1 + 1 = 0, carry 1 to the next column.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-10.png",
+        path: "/images/binary subtraction/binary-add-2c-10.png",
         description: "Leftover carry digits go in their own column.",
     },
     {
-        path: "/public/images/binary subtraction/binary-add-2c-11.png",
+        path: "/images/binary subtraction/binary-add-2c-11.png",
         description:
             "The result of a subtraction should be the same length as its input terms, so remove the 8th bit.",
     },

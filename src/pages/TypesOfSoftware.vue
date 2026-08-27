@@ -13,34 +13,34 @@ const prevNextNavData = {
 
 const applicationData = [
     {
-        src: "/public/images/software/msword.avif",
+        src: "/images/software/msword.avif",
         alt: "Logo for the Microsoft Word word processor.",
     },
     {
-        src: "/public/images/software/inkscape.avif",
+        src: "/images/software/inkscape.avif",
         alt: "Logo for the open-source vector tool Inkscape.",
     },
     {
-        src: "/public/images/software/audacity.avif",
+        src: "/images/software/audacity.avif",
         alt: "Logo for the audio editing tool Audacity.",
     },
 ];
 
 const utilityData = [
     {
-        src: "/public/images/software/sevenzip.avif",
+        src: "/images/software/sevenzip.avif",
         alt: "Logo for the 7Zip file compression software'.",
     },
     {
-        src: "/public/images/software/winrar.avif",
+        src: "/images/software/winrar.avif",
         alt: "Logo for the WinRAR file compression software.",
     },
     {
-        src: "/public/images/software/avg.avif",
+        src: "/images/software/avg.avif",
         alt: "Logo for the AVG antivirus software.",
     },
     {
-        src: "/public/images/software/malwarebytes.avif",
+        src: "/images/software/malwarebytes.avif",
         alt: "Logo for the MalwareBytes antivirus software.",
     },
 ];

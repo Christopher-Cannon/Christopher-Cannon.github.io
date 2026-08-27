@@ -95,92 +95,92 @@ const xorTruthTable = [
 
 const notSlidePaths = [
     {
-        path: "/public/images/logic/not-1.png",
+        path: "/images/logic/not-1.png",
         description:
             "Write the binary number down and start inverting each bit.",
     },
     {
-        path: "/public/images/logic/not-2.png",
+        path: "/images/logic/not-2.png",
         description: "0 = 1.",
     },
     {
-        path: "/public/images/logic/not-3.png",
+        path: "/images/logic/not-3.png",
         description: "1 = 0.",
     },
     {
-        path: "/public/images/logic/not-4.png",
+        path: "/images/logic/not-4.png",
         description: "Continue until all bits have been inverted.",
     },
 ];
 
 const andSlidePaths = [
     {
-        path: "/public/images/logic/and-1.png",
+        path: "/images/logic/and-1.png",
         description:
             "Write each binary number down so the first is above the second.",
     },
     {
-        path: "/public/images/logic/and-2.png",
+        path: "/images/logic/and-2.png",
         description: "0 AND 0 = 0.",
     },
     {
-        path: "/public/images/logic/and-3.png",
+        path: "/images/logic/and-3.png",
         description: "1 AND 0 = 0.",
     },
     {
-        path: "/public/images/logic/and-4.png",
+        path: "/images/logic/and-4.png",
         description: "1 AND 1 = 1.",
     },
     {
-        path: "/public/images/logic/and-5.png",
+        path: "/images/logic/and-5.png",
         description: "Continue until you have applied an AND to each column.",
     },
 ];
 
 const orSlidePaths = [
     {
-        path: "/public/images/logic/or-1.png",
+        path: "/images/logic/or-1.png",
         description:
             "Write each binary number down so the first is above the second.",
     },
     {
-        path: "/public/images/logic/or-2.png",
+        path: "/images/logic/or-2.png",
         description: "0 OR 0 = 0.",
     },
     {
-        path: "/public/images/logic/or-3.png",
+        path: "/images/logic/or-3.png",
         description: "1 OR 0 = 1.",
     },
     {
-        path: "/public/images/logic/or-4.png",
+        path: "/images/logic/or-4.png",
         description: "1 OR 1 = 1.",
     },
     {
-        path: "/public/images/logic/or-5.png",
+        path: "/images/logic/or-5.png",
         description: "Continue until you have applied an OR to each column.",
     },
 ];
 
 const xorSlidePaths = [
     {
-        path: "/public/images/logic/xor-1.png",
+        path: "/images/logic/xor-1.png",
         description:
             "Write each binary number down so the first is above the second.",
     },
     {
-        path: "/public/images/logic/xor-2.png",
+        path: "/images/logic/xor-2.png",
         description: "0 XOR 0 = 0.",
     },
     {
-        path: "/public/images/logic/xor-3.png",
+        path: "/images/logic/xor-3.png",
         description: "1 XOR 0 = 1.",
     },
     {
-        path: "/public/images/logic/xor-4.png",
+        path: "/images/logic/xor-4.png",
         description: "1 XOR 1 = 0.",
     },
     {
-        path: "/public/images/logic/xor-5.png",
+        path: "/images/logic/xor-5.png",
         description: "Continue until you have applied an XOR to each column.",
     },
 ];
@@ -232,7 +232,7 @@ const xorSlidePaths = [
                 <h4 class="h3">Logic Gate</h4>
 
                 <img
-                    src="/public/images/logic/NOT gate.png"
+                    src="/images/logic/NOT gate.png"
                     alt=""
                     class="logic-gate"
                 />
@@ -264,7 +264,7 @@ const xorSlidePaths = [
                 <h4 class="h3">Logic Gate</h4>
 
                 <img
-                    src="/public/images/logic/AND gate.png"
+                    src="/images/logic/AND gate.png"
                     alt=""
                     class="logic-gate"
                 />
@@ -298,7 +298,7 @@ const xorSlidePaths = [
                 <h4 class="h3">Logic Gate</h4>
 
                 <img
-                    src="/public/images/logic/OR gate.png"
+                    src="/images/logic/OR gate.png"
                     alt=""
                     class="logic-gate"
                 />
@@ -335,7 +335,7 @@ const xorSlidePaths = [
                 <h4 class="h3">Logic Gate</h4>
 
                 <img
-                    src="/public/images/logic/XOR gate.png"
+                    src="/images/logic/XOR gate.png"
                     alt=""
                     class="logic-gate"
                 />

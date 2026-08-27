@@ -62,15 +62,15 @@ const singleMultiProcessorData = [
 
 const systemData = [
     {
-        src: "/public/images/software/windows.avif",
+        src: "/images/software/windows.avif",
         alt: "Logo for the Microsoft's Windows operating system'.",
     },
     {
-        src: "/public/images/software/macos.avif",
+        src: "/images/software/macos.avif",
         alt: "Logo for Apple's MacOS.",
     },
     {
-        src: "/public/images/software/linux.avif",
+        src: "/images/software/linux.avif",
         alt: "Logo for the Linux kernel.",
     },
 ];
@@ -106,11 +106,11 @@ const systemData = [
                 >
 
                 <a
-                    href="/public/images/operating systems/laptop.avif"
+                    href="/images/operating systems/laptop.avif"
                     class="image-link"
                 >
                     <img
-                        src="/public/images/operating systems/laptop.avif"
+                        src="/images/operating systems/laptop.avif"
                         alt="A generic laptop computer."
                     />
                 </a>
@@ -122,11 +122,11 @@ const systemData = [
                 >
 
                 <a
-                    href="/public/images/operating systems/microcontroller.avif"
+                    href="/images/operating systems/microcontroller.avif"
                     class="image-link"
                 >
                     <img
-                        src="/public/images/operating systems/microcontroller.avif"
+                        src="/images/operating systems/microcontroller.avif"
                         alt="A car engine microcontroller."
                     />
                 </a>
@@ -138,11 +138,11 @@ const systemData = [
                 >
 
                 <a
-                    href="/public/images/operating systems/servers.avif"
+                    href="/images/operating systems/servers.avif"
                     class="image-link"
                 >
                     <img
-                        src="/public/images/operating systems/servers.avif"
+                        src="/images/operating systems/servers.avif"
                         alt="Rows of server racks in a data centre."
                     />
                 </a>
@@ -240,7 +240,7 @@ const systemData = [
         </p>
 
         <ImageFigure
-            src="/public/images/operating systems/server os diagram.avif"
+            src="/images/operating systems/server os diagram.avif"
             alt="A visualisation of how a computer network interacts with a server-based OS."
             caption="How a computer network interacts with a server-based OS."
         />

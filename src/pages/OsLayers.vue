@@ -35,7 +35,7 @@ const prevNextNavData = {
         </p>
 
         <ImageFigure
-            src="/public/images/os-layers/os-layers.png"
+            src="/images/os-layers/os-layers.png"
             alt="Diagram of the typical arrangement of operating system layers."
             caption="Typical arrangement of the layers of operating systems with the kernel at the centre."
         />
@@ -94,7 +94,7 @@ const prevNextNavData = {
         </p>
 
         <ImageFigure
-            src="/public/images/os-layers/ring-architecture.png"
+            src="/images/os-layers/ring-architecture.png"
             alt="Diagram of how privilege rings are arranged with most privileges lying at ring 0 in the centre."
         />
 
@@ -149,7 +149,7 @@ const prevNextNavData = {
         <MinorHeading id="input-output">Input / Output</MinorHeading>
 
         <SideImage
-            src="/public/images/os-layers/input output.png"
+            src="/images/os-layers/input output.png"
             alt="A venn diagram showing hardware devices that count as input and/or output devices."
         >
             <p>
@@ -208,7 +208,7 @@ const prevNextNavData = {
         <h4 class="h3">Command Line Interface</h4>
 
         <SideImage
-            src="/public/images/os-layers/terminal.avif"
+            src="/images/os-layers/terminal.avif"
             alt="A typical command line interface."
         >
             <p>
@@ -230,7 +230,7 @@ const prevNextNavData = {
         <h4 class="h3">Graphical User Interface</h4>
 
         <SideImage
-            src="/public/images/os-layers/winxp.avif"
+            src="/images/os-layers/winxp.avif"
             alt="The desktop graphical user interface of the Windows XP operating system."
         >
             <p>

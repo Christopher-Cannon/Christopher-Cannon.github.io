@@ -31,7 +31,7 @@ const prevNextNavData = {
         <h4 class="h3">Magnetic Tape</h4>
 
         <SideImage
-            src="/public/images/storage/magnetic tape.avif"
+            src="/images/storage/magnetic tape.avif"
             alt="A reel of magnetic tape."
         >
             <p>
@@ -46,7 +46,7 @@ const prevNextNavData = {
         <h4 class="h3">Floppy Disks</h4>
 
         <SideImage
-            src="/public/images/storage/floppy disks.avif"
+            src="/images/storage/floppy disks.avif"
             alt="Floppy disks of various sizes."
         >
             <p>
@@ -73,7 +73,7 @@ const prevNextNavData = {
         <h4 class="h3">Flash Drives</h4>
 
         <SideImage
-            src="/public/images/storage/flash drive.avif"
+            src="/images/storage/flash drive.avif"
             alt="A black USB flash drive."
         >
             <p>
@@ -94,7 +94,7 @@ const prevNextNavData = {
         <h4 class="h3">Compact Disks</h4>
 
         <SideImage
-            src="/public/images/storage/compact disks.avif"
+            src="/images/storage/compact disks.avif"
             alt="A stack of compact disks."
         >
             <p>
@@ -114,7 +114,7 @@ const prevNextNavData = {
         <h4 class="h3">Hard Disk Drives</h4>
 
         <SideImage
-            src="/public/images/storage/hard drive.avif"
+            src="/images/storage/hard drive.avif"
             alt="An exposed 3.5 inch hard drive."
         >
             <p>
@@ -131,7 +131,7 @@ const prevNextNavData = {
         </SideImage>
 
         <SideImage
-            src="/public/images/storage/hdd platter visualisation.png"
+            src="/images/storage/hdd platter visualisation.png"
             alt="A diagram showing how data is stored on a hard disk platter."
             class="mt-[2rem]"
         >
@@ -185,7 +185,7 @@ const prevNextNavData = {
         <h4 class="h3">Solid State Drives</h4>
 
         <SideImage
-            src="/public/images/storage/ssd.avif"
+            src="/images/storage/ssd.avif"
             alt="A SanDisk solid state drive."
         >
             <p>
@@ -205,7 +205,7 @@ const prevNextNavData = {
         </SideImage>
 
         <SideImage
-            src="/public/images/storage/ssd grid visualisation.png"
+            src="/images/storage/ssd grid visualisation.png"
             alt="A diagram showing how data is stored on a solid state drive."
             class="mt-[2rem]"
         >
@@ -272,10 +272,7 @@ const prevNextNavData = {
 
         <h4 class="h3">NVMe Drives</h4>
 
-        <SideImage
-            src="/public/images/storage/nvme.avif"
-            alt="Various NVMe drives."
-        >
+        <SideImage src="/images/storage/nvme.avif" alt="Various NVMe drives.">
             <p>
                 Non-Volatile Memory Express is a protocol designed for flash
                 storage using the
@@ -299,7 +296,7 @@ const prevNextNavData = {
         </p>
 
         <ImageFigure
-            src="/public/images/storage/disk performance comparison.avif"
+            src="/images/storage/disk performance comparison.avif"
             alt="A comparison of three disk drives based on transfer rate and seek time."
         />
 

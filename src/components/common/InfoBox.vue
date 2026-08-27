@@ -8,19 +8,19 @@
         <header class="info-box-header">
             <img
                 v-if="props.warning"
-                src="/public/icons/triangle-exclamation-solid-full.svg"
+                src="/icons/triangle-exclamation-solid-full.svg"
                 alt=""
                 class="info-box-icon"
             />
             <img
                 v-else-if="props.danger"
-                src="/public/icons/bomb-solid-full.svg"
+                src="/icons/bomb-solid-full.svg"
                 alt=""
                 class="info-box-icon"
             />
             <img
                 v-else
-                src="/public/icons/circle-info-solid-full.svg"
+                src="/icons/circle-info-solid-full.svg"
                 alt=""
                 class="info-box-icon"
             />

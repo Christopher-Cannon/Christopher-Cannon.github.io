@@ -332,7 +332,7 @@ const fileSizeDecimalData = [
         </p>
 
         <ImageFigure
-            src="/public/images/file management/disk partitions.avif"
+            src="/images/file management/disk partitions.avif"
             alt="Interface showing various disks containing numerous partitions."
             caption="Disks divided into multiple partitions as shown in Windows computer management tool."
         />
@@ -350,7 +350,7 @@ const fileSizeDecimalData = [
         </p>
 
         <SideImage
-            src="/public/images/file management/file system.png"
+            src="/images/file management/file system.png"
             alt="A map of a typical file hierarchy."
         >
             <p>

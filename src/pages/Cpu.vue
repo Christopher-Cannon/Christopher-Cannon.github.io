@@ -167,7 +167,7 @@ const prevNextNavData = {
         </p>
 
         <ImageFigure
-            src="/public/images/cpu/bus width.png"
+            src="/images/cpu/bus width.png"
             alt="A comparison between an 8-bit and 16-bit bus."
             caption="Wider buses allow more data through at once."
         />
@@ -175,7 +175,7 @@ const prevNextNavData = {
         <h5 class="h4">Address Bus</h5>
 
         <SideImage
-            src="/public/images/cpu/address bus.png"
+            src="/images/cpu/address bus.png"
             alt="A diagram showing how the address bus is uni-directional towards memory."
         >
             <p>
@@ -194,7 +194,7 @@ const prevNextNavData = {
         <h5 class="h4">Data Bus</h5>
 
         <SideImage
-            src="/public/images/cpu/data bus.png"
+            src="/images/cpu/data bus.png"
             alt="A diagram showing how the data bus is bi-directional."
         >
             <p>
@@ -395,7 +395,7 @@ const prevNextNavData = {
 
         <SlideGallery
             :data="feCycleSlidePaths"
-            bg="/public/images/fe cycle/fe cycle bg.png"
+            bg="/images/fe cycle/fe cycle bg.png"
         />
 
         <InfoBox label="Next Steps">
@@ -462,7 +462,7 @@ const prevNextNavData = {
         </ul>
 
         <ImageFigure
-            src="/public/images/cpu/i5 13th gen die.avif"
+            src="/images/cpu/i5 13th gen die.avif"
             alt="Diagram of a 13th gen Intel Core-i5 CPU die."
             caption="Layout of a 13th gen Intel Core-i5 CPU die."
         />
