@@ -52,7 +52,7 @@ import SideImage from "../components/common/SideImage.vue";
                                     >Peripherals</router-link
                                 >
                             </li>
-                            <li style="display:none">
+                            <li style="display: none">
                                 <router-link
                                     to="/hardware-overview#development-history"
                                     class="link"
@@ -237,9 +237,9 @@ import SideImage from "../components/common/SideImage.vue";
                             </li>
                             <li>
                                 <router-link
-                                    to="/operating-systems#network-os"
+                                    to="/operating-systems#distributed-os"
                                     class="link"
-                                    >Network OS</router-link
+                                    >Distributed OS</router-link
                                 >
                             </li>
                             <li>
