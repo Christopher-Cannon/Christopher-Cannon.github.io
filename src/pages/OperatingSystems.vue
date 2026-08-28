@@ -246,14 +246,21 @@ const systemData = [
             caption="How a computer network interacts with a server-based OS."
         />
 
-        <h4 class="h3">Network OS</h4>
+        <MinorHeading id="network-os">Network OS</MinorHeading>
 
         <p>
             Some operating systems are able to connect to other devices and
-            resources on a network, such as printers or network-attached storage
-            (NAS). These differ from distributed operating systems in that each
+            share resources on a network, such as printers or network-attached
+            storage (NAS). Modern consumer operating systems like Windows, MacOS
+            and Linux distributions generally include such features.
+        </p>
+
+        <p>
+            These differ from distributed operating systems in that each
             computer on the network has its own separate OS and dedicated
-            hardware resources which aren't shared with other computers.
+            hardware resources which aren't shared with other computers. Shared
+            resources may connect directly to the network, such as using a
+            router or switch, without requiring a dedicated server.
         </p>
 
         <MinorHeading id="real-time-os">Real-time OS</MinorHeading>
