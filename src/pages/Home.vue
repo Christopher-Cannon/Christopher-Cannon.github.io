@@ -33,7 +33,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/hardware-overview" class="link"
+                        <router-link
+                            to="/hardware-overview"
+                            class="link list-main-item"
                             >Hardware Overview</router-link
                         >
 
@@ -65,7 +67,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/cpu-architecture" class="link"
+                        <router-link
+                            to="/cpu-architecture"
+                            class="link list-main-item"
                             >CPU Architecture</router-link
                         >
 
@@ -111,7 +115,7 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/memory" class="link"
+                        <router-link to="/memory" class="link list-main-item"
                             >Memory</router-link
                         >
 
@@ -136,7 +140,7 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/storage" class="link"
+                        <router-link to="/storage" class="link list-main-item"
                             >Storage</router-link
                         >
 
@@ -163,7 +167,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/types-of-software" class="link"
+                        <router-link
+                            to="/types-of-software"
+                            class="link list-main-item"
                             >Types of Software</router-link
                         >
 
@@ -209,7 +215,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/operating-systems" class="link"
+                        <router-link
+                            to="/operating-systems"
+                            class="link list-main-item"
                             >Operating Systems</router-link
                         >
 
@@ -262,7 +270,7 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/os-layers" class="link"
+                        <router-link to="/os-layers" class="link list-main-item"
                             >Operating System Layers</router-link
                         >
 
@@ -313,7 +321,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/file-management" class="link"
+                        <router-link
+                            to="/file-management"
+                            class="link list-main-item"
                             >File Management</router-link
                         >
 
@@ -349,7 +359,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/number-bases" class="link"
+                        <router-link
+                            to="/number-bases"
+                            class="link list-main-item"
                             >Number Bases</router-link
                         >
 
@@ -381,7 +393,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/base-conversion" class="link"
+                        <router-link
+                            to="/base-conversion"
+                            class="link list-main-item"
                             >Base Conversion</router-link
                         >
 
@@ -417,7 +431,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/binary-arithmetic" class="link"
+                        <router-link
+                            to="/binary-arithmetic"
+                            class="link list-main-item"
                             >Binary Arithmetic</router-link
                         >
 
@@ -442,7 +458,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/hex-arithmetic" class="link"
+                        <router-link
+                            to="/hex-arithmetic"
+                            class="link list-main-item"
                             >Hexadecimal Arithmetic</router-link
                         >
 
@@ -471,7 +489,9 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/logical-operations" class="link"
+                        <router-link
+                            to="/logical-operations"
+                            class="link list-main-item"
                             >Logical Operations</router-link
                         >
 
@@ -514,7 +534,7 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/glossary" class="link"
+                        <router-link to="/glossary" class="link list-main-item"
                             >Glossary</router-link
                         >
 
@@ -556,7 +576,7 @@ import SideImage from "../components/common/SideImage.vue";
 
                 <ul class="list">
                     <li>
-                        <router-link to="/links" class="link"
+                        <router-link to="/links" class="link list-main-item"
                             >Resource Links</router-link
                         >
 
@@ -582,6 +602,10 @@ import SideImage from "../components/common/SideImage.vue";
     text-align: center;
     max-width: 400px;
     margin: 2rem auto;
+}
+
+.list-main-item {
+    font-size: 125%;
 }
 
 @media (min-width: 900px) {
