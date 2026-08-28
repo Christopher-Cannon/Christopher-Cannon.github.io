@@ -244,6 +244,13 @@ import SideImage from "../components/common/SideImage.vue";
                             </li>
                             <li>
                                 <router-link
+                                    to="/operating-systems#network-os"
+                                    class="link"
+                                    >Network OS</router-link
+                                >
+                            </li>
+                            <li>
+                                <router-link
                                     to="/operating-systems#real-time-os"
                                     class="link"
                                     >Real-time OS</router-link
