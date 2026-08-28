@@ -586,6 +586,13 @@ import SideImage from "../components/common/SideImage.vue";
                                     >CPU</router-link
                                 >
                             </li>
+                            <li>
+                                <router-link
+                                    to="/links#operating-systems"
+                                    class="link"
+                                    >Operating Systems</router-link
+                                >
+                            </li>
                         </ul>
                     </li>
                 </ul>
