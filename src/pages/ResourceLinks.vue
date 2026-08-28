@@ -40,6 +40,16 @@ const cpuLinks = [
         description: "An alternative overview of the fetch-execute cycle.",
     },
 ];
+
+const osLinks = [
+    {
+        url: "https://www.geeksforgeeks.org/operating-systems/difference-between-network-os-and-distributed-os/",
+        title: "Difference between Network OS and Distributed OS",
+        website: "geeksforgeeks.org",
+        description:
+            "An overview of the differences of network and distributed operating systems.",
+    },
+];
 </script>
 
 <template>
@@ -52,6 +62,19 @@ const cpuLinks = [
 
         <ul class="list">
             <li v-for="(item, index) in cpuLinks" :key="index">
+                <a :href="item.url" class="link" target="_blank">{{
+                    item.title
+                }}</a>
+                - <b>{{ item.website }}</b
+                ><br />
+                {{ item.description }}
+            </li>
+        </ul>
+
+        <MinorHeading id="operating-systems">Operating Systems</MinorHeading>
+
+        <ul class="list">
+            <li v-for="(item, index) in osLinks" :key="index">
                 <a :href="item.url" class="link" target="_blank">{{
                     item.title
                 }}</a>
