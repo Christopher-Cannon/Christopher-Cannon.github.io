@@ -211,20 +211,21 @@ const systemData = [
             </li>
         </ul>
 
-        <MinorHeading id="network-os">Network OS</MinorHeading>
+        <MinorHeading id="distributed-os">Distributed OS</MinorHeading>
 
         <p>
             Focused on providing services to computers across a network and
             includes features such as remote file access, resource sharing (e.g.
-            printers), centralised security and user management. Computers on
-            the network that connect to the server may be 'thin clients'. These
-            low-spec machines run an OS with minimal features that act as way to
-            access server software and resources.
+            printers), centralised security and user management.
         </p>
 
         <p>
-            Common in companies where many individuals need to collaborate.
-            Examples include Windows Server and Linux with Samba.
+            Computers on the network that connect to the server may be 'thin
+            clients'. These low-spec machines run an OS with minimal features
+            that act as way to access server software and resources. Other
+            setups may distribute hardware resources evenly across networked
+            computers. Common in companies where many individuals need to
+            collaborate. Examples include Windows Server and Linux with Samba.
         </p>
 
         <p>
@@ -244,6 +245,16 @@ const systemData = [
             alt="A visualisation of how a computer network interacts with a server-based OS."
             caption="How a computer network interacts with a server-based OS."
         />
+
+        <h4 class="h3">Network OS</h4>
+
+        <p>
+            Some operating systems are able to connect to other devices and
+            resources on a network, such as printers or network-attached storage
+            (NAS). These differ from distributed operating systems in that each
+            computer on the network has its own separate OS and dedicated
+            hardware resources which aren't shared with other computers.
+        </p>
 
         <MinorHeading id="real-time-os">Real-time OS</MinorHeading>
 
