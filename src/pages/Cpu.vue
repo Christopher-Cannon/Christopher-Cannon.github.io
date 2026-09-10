@@ -241,7 +241,8 @@ const prevNextNavData = {
         <h5 class="h4">Non-Maskable Interrupt</h5>
 
         <p>
-            A high-priority interrupt that cannot be ignored by the CPU often
+            Interrupts can be ignored by the CPU if it is working on a high-priority task. 
+            An NMI high-priority interrupt however cannot be ignored by the CPU and is often
             used for critical events, such as hardware failure or memory parity
             errors.
         </p>
