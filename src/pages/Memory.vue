@@ -279,6 +279,25 @@ const prevNextNavData = {
             entirely on transferring data.
         </p>
 
+        <h5 class="h4">How It Works</h5>
+
+        <ul class="list">
+            <li>The CPU will initiate the transfer, taking into account:
+                <ul class="list !my-[0.5rem]">
+                    <li>The starting memory address</li>
+                    <li>The amount of data to transfer</li>
+                    <li>The device involved</li>
+                    <li>Whether data is input or output</li>
+                </ul>
+            </li>
+            <li>The DMA controller notifies the CPU once the transfer completes.</li>
+            <li>The CPU can do other tasks while the transfer proceeds.</li>
+        </ul>
+
+        <p>
+            The DMA controller has priority over the CPU if both try to access the same area of memory at the same time.
+        </p>
+
         <h5 class="h4">Cycle Stealing</h5>
 
         <p>
