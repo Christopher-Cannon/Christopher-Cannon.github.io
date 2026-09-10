@@ -468,13 +468,11 @@ const prevNextNavData = {
             caption="Layout of a 13th gen Intel Core-i5 CPU die."
         />
 
-        <h4 class="h3">RISC-V</h4>
+        <h4 class="h3">RISC</h4>
 
         <p>
-            A free, open-source architecture developed in 2010 by the University
-            of California and is the fifth generation of RISC first developed in
-            1981. It is designed for simplicity and efficiency as its name
-            suggests: Reduced Instruction Set Computer.
+            Short for reduced instruction set computer first developed in
+            1981 by the University of California. It is designed for simplicity and power efficiency.
         </p>
 
         <p>
@@ -485,6 +483,11 @@ const prevNextNavData = {
         </p>
 
         <ul class="list">
+            <li>
+                <b>RISC-V:</b>
+                A free, open-source architecture developed in 2010 and is the fifth 
+                generation of RISC. It's a popular choice for microcontrollers and embedded systems.
+            </li>
             <li>
                 <b>PowerPC:</b>
                 Saw use in Apply desktop and laptop computers from 1994 to 2006,
